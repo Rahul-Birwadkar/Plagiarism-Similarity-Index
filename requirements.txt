@@ -6,4 +6,4 @@ nltk
 numpy
 pandas
 gunicorn
-
+python-docx
