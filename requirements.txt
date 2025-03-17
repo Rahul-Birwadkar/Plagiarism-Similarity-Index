@@ -7,3 +7,4 @@ numpy
 pandas
 gunicorn
 python-docx
+PyPDF2
