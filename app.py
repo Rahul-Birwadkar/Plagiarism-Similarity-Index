@@ -18,6 +18,11 @@ from nltk.stem import PorterStemmer
 # Download necessary NLTK resources
 nltk.download('stopwords')
 nltk.download('punkt')
+import os
+import nltk
+
+# Download necessary NLTK resources
+nltk.download('punkt_tab')  # 🔹 Fix for missing 'punkt_tab' error
 
 # Initialize Flask app
 app = Flask(__name__)
